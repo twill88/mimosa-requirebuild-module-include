@@ -1,4 +1,4 @@
-mimosa-requirebuild-textplugin-module-include
+mimosa-requirebuild-module-include
 ===========
 
 This is a Mimosa module. It builds off the goals of the [requirebuild-include](https://github.com/CraigCav/mimosa-requirebuild-include) module. The function of this module is to find dependencies that the optimizer may miss and include them in the `include` array for r.js modules. This module can either include dependencies in already defined r.js modules by matching module name, or it can create new modules for you.
