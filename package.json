@@ -1,0 +1,36 @@
+{
+  "name": "mimosa-requirebuild-module-include",
+  "version": "0.1.0",
+  "homepage": "https://github.com/twill88/mimosa-requirebuild-module-include",
+  "author": "Thomas Williams",
+  "description": "Mimosa module for including dependencies in r.js modules.",
+  "contributors": [
+    {
+      "name": "Thomas Williams",
+      "email": "thomas.williams513@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twill88/mimosa-requirebuild-module-include"
+  },
+  "keywords": [
+    "mimosa",
+    "mmodule",
+    "r.js",
+    "requirejs"
+  ],
+  "dependencies": {
+    "logmimosa": "0.5.0",
+    "wrench": "1.5.1",
+    "minimatch": "~0.2.5"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "prepublish": "mimosa build"
+  }
+}
