@@ -1,6 +1,6 @@
 {
   "name": "mimosa-requirebuild-module-include",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/twill88/mimosa-requirebuild-module-include",
   "author": "Thomas Williams",
   "description": "Mimosa module for including dependencies in r.js modules.",

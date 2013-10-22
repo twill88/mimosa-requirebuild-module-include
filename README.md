@@ -15,6 +15,12 @@ Add `'requirebuild-module-include'` to your list of modules.  That's all!  Mimos
 
 The `'requirebuild-module-include'` module configuration is a pointer to a directory of files to include, a list of patterns to match files for inclusion, a list of regexes or strings to prevent including certain files, and a list of modules in which to include the files. Each setting can be customized or overridden for each module. 
 
+## Caution
+
+If you are using a module that dynamically creates files in your compiled directory, you may need to add a regex or string to the exclude array to prevent those files from being included in your modules. 
+
+By default, if you name your dynamic modules ending with "-built.js" they will be excluded if you don't override the default exclude array.
+
 ## Default Config
 
 ```
